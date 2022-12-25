@@ -54,13 +54,13 @@ public class StockServiceImplTest {
         assertEquals(stock1, stockService.retrieveStock(stock1.getIdStock()));
     }
 
-    /*@Test
+   /* @Test
      void testDeleteStock() throws ParseException {
-        Stock c = new Stock(1,"crr", 33, 33);
+        Stock c = new Stock("f", 1, 1);
         Stock stock = stockService.addStock(c);
         stockService.deleteStock(stock.getIdStock());
-        assertNull(stockService.retrieveStock(stock.getIdStock()));
-      */  
+        assertNull(stockService.retrieveStock(stock.getIdStock()));}
+      */
         
     
     @Test
